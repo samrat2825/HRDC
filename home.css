@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+/*body{
+	background-color: #eeeeee;
+}
+
+.header{
+	background-color: white;
+
+}
+
+.container{
+	max-width: 1500px;
+	margin: 0 auto;
+	
+}
+
+.logo{
+	float:left;
+}
+
+.nav {
+ 	float: right;
+	display: inline-block; 	
+}
+
+.nav a{
+	padding: 20px 30px;
+	color:#303030;
+	text-decoration: none;
+	line-height: 50px;
+}
+
+.nav a:hover{
+	color: blue;
+}
+
+SECOND PART OF LAYOUT
+
+p{
+	margin-bottom: 20px;
+
+}
+
+h1,h2,h3{
+	margin-bottom: 10px;
+}
+
+ul,ol{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.content{
+	
+	width: 73%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	float: left;
+	max-width: 73%;
+
+}
+
+.article{
+	background: #fff;
+	padding: 30px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.footer{
+	background-color: white;
+	text-align: center;
+    margin-top: 20px;
+	padding-top : 10px;
+	font-family: helvetica;
+	clear: both;
+}
+
+.sidebar{
+	margin-top: 20px;
+	max-width: 25%;
+	background-color: white;
+	padding-top: 30px;
+	float: right;
+	width: 25%;
+}
+*/
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
